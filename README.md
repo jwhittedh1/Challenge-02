@@ -5,3 +5,5 @@
 1. CSS Folder
 2. Stylesheet
 3. Images
+
+## Updated HTML and CSS Files
