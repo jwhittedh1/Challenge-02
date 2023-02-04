@@ -48,18 +48,39 @@ nav a:hover {
     display: block;
 }
 
-.float {
-    float: left;
-}
 
 section {
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
+}
+
+.float {
+    float: left;
+    margin: auto 50px;
+    border-right: 2px solid black;
+    padding: 25px 25px;
 }
 
 .work {
+    display: flex;
     
 }
+
+
+
+.contact ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px auto;
+    padding: 10px auto;
+    
+}
+
+
+
+
 
 
 
