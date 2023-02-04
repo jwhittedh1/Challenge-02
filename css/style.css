@@ -62,12 +62,27 @@ section {
     padding: 25px 25px;
 }
 
-.work {
+.flexbox-container {
     display: flex;
-    
+    flex-direction: column;
 }
 
+#image-1 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.image-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image-3 {
+    display: flex;
+    justify-content: center;
+}
 
 .contact ul {
     list-style-type: none;
