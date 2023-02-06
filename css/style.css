@@ -1,7 +1,6 @@
 /*Universal Selector*/
 * {
     box-sizing: border-box;
-    background-color: white;
 }
 
 /*Element Selector*/
@@ -19,15 +18,11 @@ body {
 
 .header h1 {
     color: black;
-    background-color: white;
+    background-color: rgb(84, 189, 237);
 }
 /*Element Selector*/
-nav {
-    background-color: transparent;
-}
 nav ul {
     list-style-type: none;
-    background-color: transparent;
 }
 
 nav ul li {
@@ -35,17 +30,16 @@ nav ul li {
 /*spacing between nav elements*/
     margin-left: 25px;
     font-size: 20px;
-    background-color: transparent;
 }
 
 nav a {
-    color: black;
+    color: rgb(84, 189, 237);
     text-decoration: underline;
     background-color: transparent;
 }
 
 nav a:hover {
-    color: rgb(84, 189, 237);
+    color: rgb(6, 127, 85);
     background-color: transparent;
 }
 
@@ -90,7 +84,7 @@ section {
 }
 
 .image-fluid {
-    height: 60%;
+    height: 400px;
     width: 100%;
 }
 
@@ -107,17 +101,40 @@ section {
 .contact ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    text-decoration: underline;
 }
 
 div li {
-    color: black;
+    color: rgb(84, 189, 237);
+    text-decoration: underline;
 }
 
 div li:hover {
-    color: rgb(84, 189, 237);
+    color: rgb(6, 127, 85);
 }
 
+@media  screen and (max-width: 992px) {
+    .header {
+        background-color: rgb(49, 4, 49);
+    }
+    nav a {
+        color: 
+    }; 
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        background-color: rgb(3, 55, 3);
+    }   
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-color: rgb(3, 3, 249);
+    }
+    
+}
 
 
 
