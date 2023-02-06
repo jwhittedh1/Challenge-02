@@ -1,7 +1,7 @@
 /*Universal Selector*/
 * {
     box-sizing: border-box;
-    background-color: tan;
+    background-color: white;
 }
 
 /*Element Selector*/
@@ -10,17 +10,24 @@ body {
 }
 
 /*Element Selector*/
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    margin: 0px 25px;
+    background-color: rgb(1, 1, 29);
 }
 
+.header h1 {
+    color: black;
+    background-color: white;
+}
 /*Element Selector*/
+nav {
+    background-color: transparent;
+}
 nav ul {
     list-style-type: none;
+    background-color: transparent;
 }
 
 nav ul li {
@@ -28,23 +35,24 @@ nav ul li {
 /*spacing between nav elements*/
     margin-left: 25px;
     font-size: 20px;
+    background-color: transparent;
 }
 
 nav a {
-    color: pink;
+    color: black;
     text-decoration: underline;
+    background-color: transparent;
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(84, 189, 237);
+    background-color: transparent;
 }
 
 .jesse {
     height: 400px;
-    width: 50%;
-    background-image: url(https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png);
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=900&t=st=1675657541~exp=1675658141~hmac=59f5c2e42ed051f32712e3dbc4597351e5871b96dad796612b11ff8f3de47e0a");
     display: block;
 }
 
@@ -52,45 +60,62 @@ nav a:hover {
 section {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
 }
 
-.float {
-    float: left;
-    margin: auto 50px;
-    border-right: 2px solid black;
-    padding: 25px 25px;
+.row {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.header-column {
+    flex-basis: 10%;
+    margin: 15px;
+    padding: 10px;
+    border-right: 3px solid black;
+    text-align: right;
+}
+
+.content-column {
+    flex-basis: 75%;
 }
 
 .flexbox-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+.image-fluid {
+    height: 60%;
+    width: 100%;
 }
 
 #image-1 {
-    height: 400px;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
-.image-2 {
-    display: flex;
-    justify-content: center;
+
+.project {
+    flex-basis: calc(50% - 5px);
 }
 
-.image-3 {
-    display: flex;
-    justify-content: center;
-}
 
 .contact ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    margin: 15px auto;
-    padding: 10px auto;
-    
+    justify-content: space-evenly; 
+}
+
+div li {
+    color: black;
+}
+
+div li:hover {
+    color: rgb(84, 189, 237);
 }
 
 

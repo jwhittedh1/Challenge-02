@@ -11,6 +11,3 @@
 1. Created flexbox container in section element in stylesheet
 2. Created an #id and .classes to position placeholder images using display properties and flexbox
 
-
-
-
