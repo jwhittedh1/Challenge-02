@@ -118,22 +118,25 @@ div li:hover {
     .header {
         background-color: rgb(49, 4, 49);
     }
-    nav a {
-        color: 
-    }; 
+    .flexbox-container{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         background-color: rgb(3, 55, 3);
     }   
+
 }
 
 @media screen and (max-width: 576px) {
     .header {
         background-color: rgb(3, 3, 249);
     }
-    
+    .flexbox-container{
+        ;
+    }
 }
 
 
